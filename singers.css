@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: beige;
+}
+nav{
+    position: sticky;
+    box-shadow: 1px 2px 20px 5px goldenrod;
+}
+header nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7e33c9;
+    height: 15vh;
+}
+ul a{
+    text-decoration: none;
+    color: beige;
+}
+ul li{
+    list-style: none;
+    padding: 30px;
+    font-size: 1.1em;
+    font-family: Poetsen one;
+   font-weight: lighter;
+}
+li:hover{
+    background-color: #b163ff;
+}
+#logo{
+    height: 15vh;
+    margin-right: 15vw;
+}
+.mainbox{
+    height: 80vh;
+    width: 95vw;
+    background-color: #8000ff;
+    border-radius: 20px;
+    position: relative;
+top: 25px;
+left: 34px;
+display: flex;
+
+}
+.hans{
+    height: 70vh;
+    border-radius: 50px;
+    margin: 40px;
+    filter: contrast(1.3);
+    box-shadow: 1px 1px 20px 20px goldenrod;
+}
+.name{
+    font-size: 3em;
+    font-family: poetsen one;
+    margin: 20px;
+    color: white;
+}
+.audiobox{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.audiointer{
+  margin-Left: 30PX;
+  color: aquamarine;
+  
+}
+P{
+    font-family: POPPINS;
+    font-weight: 800;
+    margin-left: 50px;
+    color: antiquewhite;
+    font-size: 1.3em;
+    
+}
+.homesongs{
+    box-shadow: 0px 0px 20px 7px beige;
+    height: 100px;
+    border-radius: 50px;
+    margin-left: 20px;
+    border: 15px #ee00ff;
+}
+#sach{
+    
+    filter: contrast(3);
+    filter: brightness(1);
+}

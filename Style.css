@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Playball&family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:linear-gradient(45deg, rgb(250, 69, 69),#d459f6,rgb(250, 187, 70),#882cf9);
+    background-size: 300% 300%;
+    animation: color 5s ease-in-out infinite;
+}
+@keyframes color {
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+div{
+    overflow: hidden;
+}
+
+nav{
+    position: sticky;
+    /* box-shadow: 0px 2px 20px 5px goldenrod; */
+}
+header nav ul {
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7e33c9;
+    height: 15vh;
+}
+ul a{
+    text-decoration: none;
+    color: beige;
+}
+ul li{
+    list-style: none;
+    padding: 30px;
+    font-size: 1.1em;
+    font-family: Poetsen one;
+   font-weight: lighter;
+}
+li:hover{
+    background-color: #b163ff;
+}
+#logo{
+    height: 15vh;
+    margin-right: 15vw;
+}
+p{
+    font-family: playball;
+    font-size: 2em;
+    color:#ffe516;
+
+}
+.longbox{
+    background-color: rgb(255, 255, 255);
+    margin-top: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 40vh;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.songb1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    width: 90vw;
+}
+.songb2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 45vh;
+    width: 90vw;
+}
+
+.shortbox{
+    background-color: #7e33c9;
+    border-radius: 30px;
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.footer{
+    height: 60vh;
+    width: 100vw;
+    margin-top: 100px;
+   
+}
+
+
+.homesongs{
+    box-shadow: 0px 0px 20px 7px beige;
+    height: 150px;
+    border-radius: 50px;
+    margin: 20px;
+    border: 15px #ee00ff;
+    filter: contrast(1.2);
+    
+    
+}
+.welcome{
+height: 70vh;
+width: 95vw;
+border-radius: 30px;
+background-color: white;
+margin: 30px;
+margin-top: 55px;
+display: flex;
+justify-content: left;
+
+}
+.banner{
+    height: 70vh;
+    width: 99vw;
+   filter: contrast(2);
+  /* box-shadow:1px 1px 20px 20px rgba(218, 165, 32, 0.614); */
+  border-radius: 20px;
+  
+}
+.homesongs1{
+    box-shadow: 0px 0px 20px 7px beige;
+    height: 150px;
+    border-radius: 50px;
+    margin: 20px;
+    border: 15px #ee00ff;
+    filter: contrast(1.2);
+    
+    
+}
+audio{
+    width: 15vw;
+}
+.s{
+    margin: 30px;
+    color: black;
+  display: grid;
+    align-items: center;
+}
+.sm{
+    color: #7e33c9;
+}
+.albumimg{
+    height: 30vh;
+    border-radius: 20px;
+    filter: contrast(1.2) ;
+    margin: 20px;
+    box-shadow: 20px 20px 20px 0px #0000008a;
+}
+/* .Searchbar{
+    height:7vh; 
+    width: 20vw;
+    background-color: beige;
+    border-radius: 30px;
+}
+#SearchBar{
+    background-color: beige;
+    border: none;
+    height: 5vh;
+    position: relative;
+    left: 3vw;
+
+} */
+
+
